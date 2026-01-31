@@ -19,13 +19,19 @@ This skill transforms Claude into a specialized analyst that reviews Shape Up pi
 
 ## Installation
 
-Install via Claude Code CLI:
+[add-skill](https://github.com/anthropics/add-skill) is a CLI tool that lets you install agent skills from git repositories. Works with Claude Code, OpenCode, Codex, Cursor, and more.
 
 ```bash
-npx @anthropic-ai/claude-code skills add tachunwu/shape-up-analysis-skills
+npx skills add tachun/shape-up-analysis-skills
 ```
 
-Or manually copy `skills/shape-up-analysis/` to your `.claude/skills/` directory.
+or
+
+```bash
+npx add-skill tachun/shape-up-analysis-skills
+```
+
+Alternatively, manually copy `skills/shape-up-analysis/` to your `.claude/skills/` directory.
 
 ## Usage
 
